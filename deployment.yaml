@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: easybuggy
-        image: https://535002889690.dkr.ecr.us-east-2.amazonaws.com/pavi_img
+        image: 535002889690.dkr.ecr.us-east-2.amazonaws.com/pavi_img:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
